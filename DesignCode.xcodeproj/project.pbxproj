@@ -14,6 +14,7 @@
 		08D4D7F827F2875600100D1F /* DesignCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D4D7F727F2875600100D1F /* DesignCodeTests.swift */; };
 		08D4D80227F2875600100D1F /* DesignCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D4D80127F2875600100D1F /* DesignCodeUITests.swift */; };
 		08D4D80427F2875600100D1F /* DesignCodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D4D80327F2875600100D1F /* DesignCodeUITestsLaunchTests.swift */; };
+		08D4D81127F2BB1700100D1F /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D4D81027F2BB1600100D1F /* Styles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		08D4D7FD27F2875600100D1F /* DesignCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		08D4D80127F2875600100D1F /* DesignCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITests.swift; sourceTree = "<group>"; };
 		08D4D80327F2875600100D1F /* DesignCodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		08D4D81027F2BB1600100D1F /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				08D4D7E627F2875100100D1F /* DesignCodeApp.swift */,
 				08D4D7E827F2875100100D1F /* ContentView.swift */,
+				08D4D81027F2BB1600100D1F /* Styles.swift */,
 				08D4D7EA27F2875500100D1F /* Assets.xcassets */,
 				08D4D7EC27F2875500100D1F /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08D4D81127F2BB1700100D1F /* Styles.swift in Sources */,
 				08D4D7E927F2875100100D1F /* ContentView.swift in Sources */,
 				08D4D7E727F2875100100D1F /* DesignCodeApp.swift in Sources */,
 			);
