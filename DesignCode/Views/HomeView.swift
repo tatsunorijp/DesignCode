@@ -1,14 +1,15 @@
 //
-//  ContentView.swift
+//  HomeView.swift
 //  DesignCode
 //
-//  Created by Wellington Tatsunori Asahide on 28/03/22.
+//  Created by Wellington Tatsunori Asahide on 30/03/22.
 //
 
 import SwiftUI
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
         VStack(alignment: .leading, spacing: 8.0) {
             Spacer()
             Image("Logo 2")
@@ -65,15 +66,12 @@ struct ContentView: View {
                 .frame(height: 230)
                 .offset(x: 32, y: -80)
         )
-            
+        
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-        ContentView()
-            .preferredColorScheme(.dark)
-            
+        HomeView()
     }
 }
