@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		088420A927FBD3D000038582 /* AnimatableFontModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088420A827FBD3D000038582 /* AnimatableFontModifier.swift */; };
+		088420AB27FBD6BB00038582 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088420AA27FBD6BB00038582 /* Course.swift */; };
 		08B18F1627F7918B00E7DE84 /* PreferenceKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B18F1527F7918B00E7DE84 /* PreferenceKeys.swift */; };
 		08C4D78B27F5621200A8AFD7 /* FeaturedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4D78A27F5621200A8AFD7 /* FeaturedItem.swift */; };
 		08C4D78D27F5635700A8AFD7 /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08C4D78C27F5635700A8AFD7 /* NavigationBar.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		088420A827FBD3D000038582 /* AnimatableFontModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatableFontModifier.swift; sourceTree = "<group>"; };
+		088420AA27FBD6BB00038582 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		08B18F1527F7918B00E7DE84 /* PreferenceKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferenceKeys.swift; sourceTree = "<group>"; };
 		08C4D78A27F5621200A8AFD7 /* FeaturedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedItem.swift; sourceTree = "<group>"; };
 		08C4D78C27F5635700A8AFD7 /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
@@ -185,6 +189,7 @@
 			children = (
 				08D8654D27F53A45007ADB46 /* Tab.swift */,
 				08B18F1527F7918B00E7DE84 /* PreferenceKeys.swift */,
+				088420AA27FBD6BB00038582 /* Course.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				08D4D81027F2BB1600100D1F /* Styles.swift */,
+				088420A827FBD3D000038582 /* AnimatableFontModifier.swift */,
 			);
 			path = Styles;
 			sourceTree = "<group>";
@@ -335,10 +341,12 @@
 				08C4D78D27F5635700A8AFD7 /* NavigationBar.swift in Sources */,
 				08D8654E27F53A45007ADB46 /* Tab.swift in Sources */,
 				08D8654A27F40A71007ADB46 /* BlobView.swift in Sources */,
+				088420AB27FBD6BB00038582 /* Course.swift in Sources */,
 				08D4D7E927F2875100100D1F /* ContentView.swift in Sources */,
 				08D4D7E727F2875100100D1F /* DesignCodeApp.swift in Sources */,
 				08B18F1627F7918B00E7DE84 /* PreferenceKeys.swift in Sources */,
 				08D8654C27F4FEDC007ADB46 /* TabBar.swift in Sources */,
+				088420A927FBD3D000038582 /* AnimatableFontModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
